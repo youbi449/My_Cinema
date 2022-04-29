@@ -1,0 +1,143 @@
+body{
+    background-color: grey;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+}
+
+#filmSearch {
+    margin-left: 20%;
+}
+
+.boxresult{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.result {
+    font-family: sans-serif;
+    border-radius: 10px;
+    /*! display: inline-block; */
+    margin-top: 10px;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    margin-left: 9%;
+    margin-top: 3%;
+    width: 30%;
+}
+
+nav ul {
+    display: inline-flex;
+    margin-left: 30%;
+    position: relative;
+    bottom: 60px;
+}
+
+nav ul li {
+    margin-left: 30%;
+    padding: 5px;
+    list-style: none;
+}
+
+nav ul li:hover, nav ul li:hover a {
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.clientResult {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.client {
+    margin-left: 10%;
+}
+
+.boxresult, .historiqueMembre {
+    font-family: sans-serif;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    width: 20%;
+    box-shadow: 10px 5Px 5px black;
+}
+
+.editClient {
+    font-family: sans-serif;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    margin-left: 35%;
+    box-shadow: 10px 5Px 5px black;
+}
+
+.historiqueMembre {
+    margin-left: 35%;
+    margin-top: 2%;
+    width: 20%;
+}
+
+.title {
+    text-align: center;
+}
+
+.avisFilm {
+    width: 50%;
+    text-align: center;
+    margin-left: 22%;
+    background-color: purple;
+    border-radius: 1%;
+    padding: 3Px;
+    box-shadow: 10px 5px 5px black;
+    font-family: sans-serif;
+    color: white;
+}
+
+.addhistory {
+    margin-left: 20%;
+}
+
+.avisConfirm {
+    color: green;
+    margin-left: 33%;
+    font-size: 14Px;
+}
+
+.avisConfirm2 {
+    margin-left: 20%;
+}
+
+.semaine {
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.pagination{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pagination a:hover{
+    background-color: black;
+    color: white;
+}
